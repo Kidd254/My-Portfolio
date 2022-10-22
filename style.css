@@ -310,5 +310,12 @@ padding-right: 24px;
   flex: none;
   order: 2;
   flex-grow: 0;
-  background-color: #172b4d;
+}
+
+.action {
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  width: 295px;
+  height: 72px;
 }
