@@ -245,10 +245,9 @@ padding-right: 24px;
   flex: none;
   order: 1;
   flex-grow: 0;
-  padding-top: 12px;
+  margin-top: 12px;
   width: 236px;
   height: 32px;
-  padding-top: 0;
   margin-top: 0;
   white-space: nowrap;
 }
@@ -300,7 +299,7 @@ padding-right: 24px;
   flex: none;
   order: 1;
   flex-grow: 0;
-  margin-top: 12px;
+  padding-top: 12px;
 }
 
 .tags {
@@ -310,6 +309,60 @@ padding-right: 24px;
   flex: none;
   order: 2;
   flex-grow: 0;
+  padding-top: 12px;
+}
+
+.li11 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 4px 12px;
+  background: #ebebff;
+  border-radius: 8px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #6070ff;
+  margin-right: 8px;
+}
+
+.li22 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 4px 12px;
+  background: #ebebff;
+  border-radius: 8px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #6070ff;
+  margin-right: 8px;
+}
+
+.li33 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 4px 12px;
+  background: #ebebff;
+  border-radius: 8px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #6070ff;
 }
 
 .action {
@@ -318,4 +371,18 @@ padding-right: 24px;
   flex-grow: 0;
   width: 295px;
   height: 72px;
+}
+
+.btn {
+  padding: 12px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #396df2;
+  background: #fff;
 }
