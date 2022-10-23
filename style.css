@@ -481,12 +481,24 @@ padding-right: 24px;
   background: #fff;
 }
 
+.top {
+  margin-top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
 .about-heading {
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
   display: flex;
   align-items: center;
+  white-space: pre-line;
   color: #172b4d;
   flex: none;
   order: 0;
@@ -507,4 +519,34 @@ flex-grow: 0;
 flex: none;
 order: 2;
 flex-grow: 0;
+}
+
+.resume {
+  box-sizing: border-box;
+  padding: 12px;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #396df2;
+  background: #fff;
+}
+
+.skills-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.languages {
+  
 }
