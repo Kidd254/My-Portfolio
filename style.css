@@ -735,7 +735,7 @@ header nav div .menu-bar {
 }
 
 .contactform .indicator {
-  margin-top: 0px;
+  margin-top: 0;
   width: 134px;
   height: 5px;
   left: calc(50% - 134px / 2 - 0.5px);
@@ -748,17 +748,16 @@ header nav div .menu-bar {
   body {
     overflow-x: hidden;
   }
-  
+
   header {
     width: 1440px;
     height: 72px;
     background: #fff;
-    
     overflow: hidden;
   }
 
   .logo {
- padding: 25px 620px 0 155px;
+    padding: 25px 620px 0 155px;
   }
 
   .menu-bar {
@@ -773,9 +772,9 @@ header nav div .menu-bar {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 0;
     list-style: none;
   }
+
   .port1 {
     padding: 10px 12px;
     font-weight: 500;
@@ -820,7 +819,6 @@ header nav div .menu-bar {
     background-size: cover;
     background-repeat: no-repeat;
     overflow: hidden;
-    
   }
 
   .introduction .title {
@@ -850,15 +848,15 @@ header nav div .menu-bar {
     0% {
       color: cyan;
     }
-  
+
     50% {
       color: red;
     }
-  
+
     75% {
       color: blueviolet;
     }
-  
+
     100% {
       color: dodgerblue;
     }
@@ -877,6 +875,7 @@ header nav div .menu-bar {
     flex: none;
     order: 1;
     flex-grow: 0;
+    white-space: pre-line;
   }
 
   .introduction .social {
