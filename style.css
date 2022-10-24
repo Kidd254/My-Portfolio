@@ -735,11 +735,173 @@ header nav div .menu-bar {
 }
 
 .contactform .indicator {
-  margin-top: 11px;
+  margin-top: 0px;
   width: 134px;
   height: 5px;
   left: calc(50% - 134px / 2 - 0.5px);
   bottom: 8px;
   background: #0d151e;
   border-radius: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+  
+  header {
+    width: 1440px;
+    height: 72px;
+    background: #fff;
+    
+    overflow: hidden;
+  }
+
+  .logo {
+ padding: 25px 620px 0 155px;
+  }
+
+  .menu-bar {
+    display: none;
+    height: 0;
+    width: 0;
+  }
+
+  .nav-links {
+    padding-top: 15px;
+    padding-right: 142px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    list-style: none;
+  }
+  .port1 {
+    padding: 10px 12px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #344563;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    text-decoration: none;
+  }
+
+  .ab1 {
+    padding: 10px 12px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #344563;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    text-decoration: none;
+  }
+
+  .cont1 {
+    padding: 10px 12px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #344563;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    text-decoration: none;
+  }
+
+  .introduction {
+    padding: 46px 8px 76.54px 34.6px;
+    height: 721.46;
+    width: 1397.4px;
+    background-image: url(.images/Header\ bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    
+  }
+
+  .introduction .title {
+    margin-left: 260px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.37px;
+    color: #091e42;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    animation-duration: 4s;
+    animation-name: fadeInOut;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    white-space: nowrap;
+    width: 920px;
+    height: 122px;
+  }
+
+  @keyframes fadeInOut {
+    0% {
+      color: cyan;
+    }
+  
+    50% {
+      color: red;
+    }
+  
+    75% {
+      color: blueviolet;
+    }
+  
+    100% {
+      color: dodgerblue;
+    }
+  }
+
+  .introduction .description {
+    margin: 12px 260px 12px 260px;
+    width: 920px;
+    height: 98px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #344563;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+
+  .introduction .social {
+    margin-top: 12px;
+    margin-left: 260px;
+    width: 117px;
+    height: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #7f8cff;
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+    overflow: hidden;
+  }
+
+  .introduction .social-links {
+    display: flex;
+    flex-direction: row;
+    margin-top: 14px;
+    margin-left: 260px;
+    flex: none;
+    order: 4;
+  }
 }
