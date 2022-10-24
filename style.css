@@ -474,7 +474,7 @@ padding-right: 24px;
   margin-left: 0;
   margin-right: 0;
   width: 375px;
-  height: 1125.15px;
+  height: 986.85px;
   display: flex;
   flex-direction: column;
   background: #fff;
@@ -603,4 +603,31 @@ flex-grow: 0;
   flex: none;
   order: 1;
   flex-grow: 0;
+}
+
+.l-list {
+  list-style: none;
+  background: #f7f7f9;
+  border-radius: 8px;
+  width: 303px;
+  height: 66.72px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 12px;
+}
+
+.images {
+  height: 48px;
+  width: 48px;
+  border: 1px solid #fff;
+  padding-top: 9px;
+  padding-bottom: 9.72px;
+  padding-left: 12px;
+  padding-right: 16px;
+}
+
+.js {
+  margin-top: 21px;
+  margin-bottom: 21.72px;
+  margin-right: 12px;
 }
