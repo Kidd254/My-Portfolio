@@ -477,8 +477,8 @@ padding-right: 24px;
   height: 1125.15px;
   display: flex;
   flex-direction: column;
-  align-items: center;
   background: #fff;
+  border-top-right-radius: 150px;
 }
 
 .top {
@@ -540,7 +540,6 @@ flex-grow: 0;
 .skills-list {
   display: flex;
   flex-direction: column;
-  align-items: center;
   padding: 0;
   flex: none;
   order: 1;
@@ -548,5 +547,60 @@ flex-grow: 0;
 }
 
 .languages {
-  
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-items: flex-start;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  height: 72px;
+  margin-left: 0; 
+}
+
+.lang {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-left: 24px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  color: #000;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  padding-right: 26px;
+  width: 237px;
+}
+
+.btn1 {
+  width: 12px;
+  height: 6px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  margin-left: 14px;
+  margin-right: 14px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  font-size: 18px;
+}
+
+.language-list {
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
 }
