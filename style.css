@@ -97,6 +97,7 @@ header nav div .menu-bar {
   font-size: 16px;
   line-height: 24px;
   color: #7f8cff;
+  white-space: nowrap;
 }
 
 .order {
@@ -1386,5 +1387,9 @@ header nav div .menu-bar {
     width: 1440px;
     height: 846px;
     background: #6070ff;
+    background-image: url(.images/contact\ form\ background\ shapes@2x.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 79.09px 74px 48.21px 75.34px;
   }
 }
